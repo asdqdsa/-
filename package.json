@@ -15,7 +15,9 @@
     "lint:fix": "stylelint '**/*.{scss,css}' --fix"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
     "autoprefixer": "^10.4.20",
+    "csso": "^5.0.5",
     "eslint": "^9.15.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^9.1.0",
@@ -23,8 +25,11 @@
     "gh-pages": "^6.2.0",
     "htmlhint": "^1.1.4",
     "postcss": "^8.4.49",
+    "postcss-csso": "^6.0.1",
     "postcss-nested": "^7.0.2",
+    "postcss-purgecss": "^5.0.0",
     "prettier": "3.3.3",
+    "purgecss": "^7.0.2",
     "sass": "^1.80.7",
     "stylelint": "^16.10.0",
     "stylelint-config-idiomatic-order": "^10.0.0",
